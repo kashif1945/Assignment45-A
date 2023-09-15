@@ -8,6 +8,7 @@ Then use your list to print a message to each person, inviting them to dinner.*/
 // numbers.forEach((number) => {
 //   console.log(number);
 // });
+//--------------------------------------------------------------------------------
 var guestList = ['"Abiha"', '"Meer"', '"Kabir"', '"Jahangir"', '"Jahanzaib"'];
 var arrayGuests = guestList.length;
 console.log(arrayGuests);
