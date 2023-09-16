@@ -13,5 +13,5 @@ var guestList = ['"Abiha"', '"Meer"', '"Kabir"', '"Jahangir"', '"Jahanzaib"'];
 var arrayGuests = guestList.length;
 console.log(arrayGuests);
 guestList.forEach((string) => {
-    console.log(string, "To Night, I would like to invite you at a dinner");
+    console.log(string, "I would like to invite you at a dinner");
 });

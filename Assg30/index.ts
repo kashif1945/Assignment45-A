@@ -7,14 +7,14 @@
 // • Otherwise, print a generic greeting, such as Hello Eric, thank you for logging in again.
 
 
-var admin: string[] = ["Kashif", "Eric", "Ahmed", "Atif", "Meer"];
+var admin: string[] = ["Kashif", "Eric", "Admin", "Atif", "Meer"];
 
 admin.forEach((name) => {
-    if (name == "Eric") {
-        console.log(`Hello admin, would you like to see a status report?, ${name}`);
+    if (name == "Admin") {
+        console.log(`Hello Admin, would you like to see a status report?, ${name}`);
     }
     else {
-        console.log(`Hello Eric, thank you for logging in again ${name}`)
+        console.log(`Hello Eric, thank you for logging again ${name}`)
     }
 })
 
